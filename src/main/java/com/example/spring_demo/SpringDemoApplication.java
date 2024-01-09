@@ -10,7 +10,7 @@ public class SpringDemoApplication {
 
 	public static void main(String[] args) {
 //		Vihicle obj=new Bike();
-		ApplicationContext context=new ClassPathXmlApplicationContext();
+		ApplicationContext context=new ClassPathXmlApplicationContext("spring.xml");
 		Vihicle obj= (Vihicle)context.getBean("vehicle");
 		obj.drive();
 //		SpringApplication.run(SpringDemoApplication.class, args);
