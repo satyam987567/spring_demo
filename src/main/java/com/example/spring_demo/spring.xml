@@ -1,16 +1,8 @@
-<<<<<<< HEAD
-
-    <beans xmlns = "http://www.springframework.org/schema/beans"
-           xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
-           xsi:schemaLocation = "http://www.springframework.org/schema/beans
+<beans xmlns = "http://www.springframework.org/schema/beans"
+       xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation = "http://www.springframework.org/schema/beans
    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
 
     <bean  id="vechile" class="com.example.spring_demo.Car"> </bean>
-
-
-=======
-<beans>
->>>>>>> 073f0b396533777bdddb43f7832b9b18deaec6a0
-
 </beans>
